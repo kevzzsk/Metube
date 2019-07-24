@@ -10,12 +10,6 @@ hr {
   align-items: stretch;
 }
 
-.navbar-icon.fa-fw{
-  padding-right:25px;
-  text-align: center;
-  box-sizing: content-box;
-}
-
 .fas.fa-bars{
   color: white;
 }
@@ -53,9 +47,45 @@ a:active, a:hover, a:visited{
   min-height: 100vh;
   background-color: #2F303A;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #sidebar.active {
-  margin-left: -250px;
+  min-width: 8vw;
+  max-width: 8vw;
+  text-align: center;
+}
+
+
+.navbar-icon.fa-fw{
+  padding-right:25px;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+#sidebar.active ul li a i.navbar-icon.fa-fw{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: content-box;
+  display: block;
+}
+
+#sidebar ul li a {
+  padding: 8px 28px;
+  text-align: start;
+  display: inline-block;
+  width: 100%;
+}
+#sidebar.active ul div.sidebar-sub{
+display: none
+}
+
+#sidebar.active ul li a {
+  padding: 24px 8px;
+  text-align: center;
+  font-size: 0.8em;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
