@@ -4,14 +4,14 @@ import avatar from '../assets/avatar.jpg'
 class Sidebar extends Component {
     render() {
         return (
-            <div className="wrapper">
+            <>
                 <nav id="sidebar" className={this.props.isOpen === true? "":"active" }>
                     <div className="sidebar-header">
                     </div>
 
                     <ul className="list-unstyled components">
                         <li>
-                            <a href="/"><i className="fas fa-home fa-fw navbar-icon"></i> Home</a>
+                            <a href="/"><i className="fas fa-home fa-fw navbar-icon"></i>Home</a>
                         </li>
                         <li>
                             <a href="/"><i className="fab fa-hotjar fa-fw navbar-icon"></i>Trending</a>
@@ -45,7 +45,7 @@ class Sidebar extends Component {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </>
         )
     }
 }
