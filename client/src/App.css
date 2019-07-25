@@ -128,8 +128,7 @@ h5.card-title {
 
 div.grid-desc {
   grid-area: desc;
-  color: white;
-  opacity: 0.6;
+  color: rgba(255,255,255,0.8);
   grid-template-columns: repeat(3, 1fr);
   white-space: nowrap;
   min-width: 0;
@@ -152,6 +151,10 @@ div.grid-desc span:first-child{
   max-width: 40%;
   display: inline-block;
   vertical-align: text-bottom
+}
+div.grid-desc a:hover span{
+  color: white;
+  opacity: 1;
 }
 
 img.img-item {
