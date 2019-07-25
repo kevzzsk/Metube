@@ -10,7 +10,7 @@ const Video = props => {
       <img src={avatar} alt="img" className="channelAvatar" />
       <h5 className="card-title">{title}</h5>
       <div className="grid-desc">
-        <span>{channel.name}</span>
+        <a href='/' data-toogle="tooltip" data-placement="auto bottom"  title={channel.name}><span>{channel.name}</span></a>
         <span>{views} views</span>
         <span>7 hours ago</span>
       </div>
