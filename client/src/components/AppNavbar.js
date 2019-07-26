@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
   Container
 } from "reactstrap";
-
-import Sidebar from "./Sidebar";
 
 class AppNavbar extends Component {
 
