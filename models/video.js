@@ -7,16 +7,17 @@ const VideoSchema = new Schema({
         type: String,
         required: true
     },
-    channel: Schema.Types.ObjectId,
+    //channel: Schema.Types.ObjectId,
+    channelName: String, //temp
     views: {
-        type: Number
+        type: String
     },
     uploadDate:{
-        type: Date,
-        default: Date.now
+        type: String,
+        default: Date.now.toString()
     },
     duration:{
-        type: Number,
+        type: String,
         required: true
     },
     image:{

@@ -20,10 +20,11 @@ router.post("/", (req, res) => {
   const newVideo = new Video({
     title: req.body.title,
     views: req.body.views,
-    channel: req.body.channel,
+    //channel: req.body.channel,
     uploadDate: req.body.uploadDate,
     duration: req.body.duration,
-    image: req.body.image
+    image: req.body.image,
+    channelName: req.body.channelName
   });
 
     // save to database
