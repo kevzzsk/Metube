@@ -60,13 +60,15 @@ a:visited {
   font-size: 1.3em;
   position: sticky;
   position: -webkit-sticky;
-  top:64px;
+  top:0;
+  padding-top: 64px
 }
 
 .navbar.navbar-expand-sm {
   background-color: var(--nav-color);
   color: white;
   width: 100%;
+  
 }
 
 .navbar-icon.fa-fw {
