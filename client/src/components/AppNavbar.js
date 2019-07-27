@@ -14,7 +14,7 @@ class AppNavbar extends Component {
   render() {
     return (
       <div>
-        <Navbar expand="sm">
+        <Navbar expand="sm" className="fixed-top">
           <button
             type="button"
             className="btn btn-lg"
