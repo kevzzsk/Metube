@@ -1,1 +1,2 @@
 export const GET_VIDEOS = "GET_VIDEOS"
+export const VIDEOS_LOADING = "VIDEOS_LOADING"
